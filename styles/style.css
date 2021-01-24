@@ -1,0 +1,89 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#cartButton {
+  width: 50px;
+  height: 50px;
+  margin: 20px;
+  background-color: silver;
+  border-color: black;
+  border-width: 0.5px;
+}
+
+#cartButton:hover {
+  background-color: gray;
+}
+
+.modal {
+  display: none;
+}
+
+.modal-content {
+  width: 350px;
+  height: 450px;
+  background-color: white;
+  box-shadow: 0.5px 2px 2px 2px gray;
+  color: black;
+}
+
+.modal-header {
+  height: 25px;
+  border-bottom: 1px solid silver;
+  margin: 15px;
+  padding: 5px 8px 8px 0px;
+  font-size: 20px;
+}
+
+.modal-footer {
+  height: 25px;
+  margin: 15px;
+  padding: 5px 8px 8px 0px;
+}
+
+.product {
+  height: 60px;
+  border-bottom: 1px solid silver;
+  margin: 15px;
+  padding: 20px;
+  font-size: 15px;
+  position: relative;
+}
+
+.properties {
+  margin-left: 70px;
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+
+.attributes {
+  width: 250px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.attributes span {
+  display: block;
+  font-size: 14px;
+  color: gray;
+}
+
+#editButton,
+#checkoutButton {
+  width: 150px;
+  height: 30px;
+}
+
+#editButton {
+  background-color: white;
+  border-color: black;
+  border-width: 0.5px;
+}
+
+#checkoutButton {
+  background-color: green;
+  border-color: transparent;
+  color: white;
+  text-transform: uppercase;
+}

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iFCC</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+
+  <body>
+
+    <button id="cartButton" class="fa fa-shopping-cart" onclick="cartHandler()"></button>
+
+    <div id="cartModal" class="modal">
+
+      <!-- Modal content -->
+      <div class="modal-content">
+
+        <div class="modal-header">
+          <span>My Cart (3 items)</span>
+        </div>
+
+        <div class="modal-body">
+          <!-- Product 1 -->
+          <div class="product">
+            <div class="properties">
+              <div class="name">Set of GT-S Series Cross Drilled</div>
+              <div class="attributes">
+                <span>Brand: Brembo</span>
+                <span>Color: Red</span>
+              </div>
+              <div class="price">$1770.00</div>
+            </div>
+          </div>
+          <!-- Product 2 -->
+          <div class="product">
+            <div class="properties">
+              <div class="name">Just Disk GT-S Cross Drilled</div>
+              <div class="attributes">
+                <span>Brand: Barbour International</span>
+                <span>Size: 405mm</span>
+              </div>
+              <div class="price">$950.00</div>
+            </div>
+          </div>
+          <!-- Product 3 -->
+          <div class="product">
+            <div class="properties">
+              <div class="name">GT Slotted 2 Piece Brake Rotors</div>
+              <div class="attributes">
+                <span>Brand: Brembo</span>
+                <span>Color: Yellow</span>
+              </div>
+              <div class="price">$1670.00</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="modal-footer">
+          <div class="buttons">
+            <button id="editButton" href="">Edit Cart</button>
+            <button id="checkoutButton" href="">Checkout</button>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+    <script src="scripts/app.js" async defer></script>
+
+  </body>
+
+</html>
